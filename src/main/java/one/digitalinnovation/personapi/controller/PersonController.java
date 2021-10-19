@@ -20,6 +20,6 @@ public class PersonController {
     @ResponseStatus(HttpStatus.CREATED)
     public MessageResponseDTO createPerson(@RequestBody @Valid PersonDTO personDTO)
     {
-        return personService.createPerson(person);
+        return personService.createPerson(personDTO);
     }
 }
