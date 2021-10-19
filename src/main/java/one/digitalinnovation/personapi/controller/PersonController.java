@@ -28,5 +28,5 @@ public class PersonController {
     public List<PersonDTO> listAll()
     {
         return personService.listAll();
-    }
+    }//aula 9
 }
